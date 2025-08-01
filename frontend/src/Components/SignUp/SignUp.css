@@ -1,0 +1,87 @@
+.SignUp {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SihnUp-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.SignUp-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUp-text h1 {
+    color: #234ca2;
+    font-weight: 500;
+}
+
+.SignUp-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.SignUp-name,
+.SignUp-number,
+.SignUp-email,
+.SignUp-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.SignUp-form input[type="email"],
+.SignUp-form input[type="text"],
+.SignUp-form input[type="password"] {
+    width: 300px;
+    padding: 8px 20px;
+}
+
+.SignUp-otp {
+    margin-left: 92px;
+    position: relative;
+    display: flex;
+}
+
+.otp {
+    margin-right: -21.2%;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+}
+
+.checkbox input {
+    cursor: pointer;
+    width: 6%;
+}
+
+.checkbox p {
+    color: #234ca2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.SignUp-form form .account-button {
+    padding: 8px 60px !important;
+    background-color: #234ca2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}

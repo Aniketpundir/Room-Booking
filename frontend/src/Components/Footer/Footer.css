@@ -1,0 +1,69 @@
+.footer {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3%;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 40%;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 80%;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-right p {
+    color: #1c1c1cbf;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-icon span {
+    font-size: 42px;
+}
+
+.footer .Navigation h3,
+.Tenants h3,
+.connect h3 {
+    font-weight: 400;
+    color: #2d4bb4;
+}
+
+.footer .Navigation p,
+.Tenants p {
+    font-size: 16px;
+    color: #1c1c1cbf;
+    cursor: pointer;
+}
+
+.connect p {
+    font-size: 15px;
+}
+
+.connect p span {
+    font-size: 18px;
+}

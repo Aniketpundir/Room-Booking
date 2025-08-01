@@ -1,0 +1,53 @@
+.Doubt_Section{
+    background-color: #234ca2;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-content h1{
+    color: #ffffff;
+}
+
+.section-content p{
+    color: #ffffff;
+}
+
+.doubt-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doubt-form form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.doubt-form form input{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.doubt-form form button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #ffffffce;
+    border: none;
+    color: #234ca2;
+    font-weight: 600;
+    cursor: pointer;
+}

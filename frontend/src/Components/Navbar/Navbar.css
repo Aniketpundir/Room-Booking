@@ -1,0 +1,50 @@
+.navbar {
+    margin: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    width: 15%;
+}
+
+.navbar-left img {
+    width: 100%;
+}
+
+.navbar-middele ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar-middele ul .button {
+    cursor: pointer;
+    color: #1c1c1cbf;
+    transition: 0.5s;
+}
+
+.navbar-middele ul .clicked {
+    color: #000000;
+    font-size: 18px;
+    transform: scale(1.05);
+}
+
+.navbar-right button {
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: 1px solid #1c1c1cbf;
+    transition: 0.5s;
+    background: transparent;
+    cursor: pointer;
+    color: #1c1c1cbf;
+}
+
+.navbar-right button:hover {
+    background-color: #2d4bb4;
+    color: #fff;
+    border: 1px solid #fff;
+}

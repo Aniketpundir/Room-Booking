@@ -1,0 +1,9 @@
+.OTPbutton {
+    /* position: relative; */
+    border-radius: 1px;
+    padding: 10px 20px;
+    background-color: #234ca2;
+    margin-top: 0.5px;
+    color: #fff;
+    border: none;
+}
